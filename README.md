@@ -18,12 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-    require 'choir'
+```ruby
+require 'choir'
 
-    choir = Choir::API.new
+choir = Choir::API.new
 
-    choir.get_stream(<your stream id>)
-    choir.post_event(<your source key>, { sound: "g/1", label: "hello", text: "hello choir" })
+choir.get_stream(<your stream id>)
+choir.post_event(<your source key>, { sound: "g/1", label: "hello", text: "hello choir" })
+```
 
 ## Contributing
 
